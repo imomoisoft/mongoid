@@ -104,9 +104,9 @@ module Mongoid
       # @return [ Array ] An array with only the string in it.
       #
       # @since 1.0.0
-      def to_a
-        [ self ]
-      end
+      # def to_a
+      #   [ self ]
+      # end
 
       # Is this string a writer?
       #
